@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+.header-payment{
+    background-color: white;
+    padding: 20px 0;
+  
+    box-shadow: 5px 4px 16.9px 3px #0000000D;
+  }
+  .header-payment-img img{
+    width: 200px;
+  }
+  .header-payment p{
+    font-weight: bold;
+  }
+  .main-payment{
+    background-color: #f4f2f2;
+    height: 100vh;
+  }
+  .header-payment-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+  .main-payment-container{
+    padding-top: 30px;
+  }
+  .main-payment-cart{
+    background-color: white;
+  }
+  .main-payment-cart-items{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .main-payment-title{
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .main-payment-price{
+    margin-left: auto;
+  }
+  .main-payment-total{
+    border-top: 2px solid gray;
+    margin: 20px;
+  }
+.main-payment-total p{
+    text-align: right;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.main-payment-total p span:nth-child(2){
+    font-weight: bold;
+}
+.but-buy {
+    margin-top: 70px;
+    width: 217px;
+    height: 66px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(to left, #ae35f0, #f492f0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0;
+  }
+  .but-buy:hover {
+    background: linear-gradient(to left, #f492f0, #ae35f0);
+  }
+  .but-download {
+    width: 217px;
+    height: 66px;
+    font-size: 24px;
+    color: black;
+    border: 1px solid #ae35f0;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .but-download:hover {
+    background: linear-gradient(to left, #f492f0, #ae35f0);
+  }
